@@ -3,12 +3,10 @@ server:
 spring:
   application:
     name: iot-platform-zuul
-  profiles:
-    active: iot-platform-zuul-application-db-dev
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/smart_warehouse
+    username: postgres
+    password: 123456
 zuul:
   prefix: /api
   routes:

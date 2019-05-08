@@ -5,7 +5,3 @@ spring:
     name: iot-platform-oauth2
   profiles:
     active: db
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka
