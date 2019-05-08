@@ -3,5 +3,7 @@ server:
 spring:
   application:
     name: iot-platform-oauth2
-  profiles:
-    active: db
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/smart_warehouse
+    username: postgres
+    password: 123456
