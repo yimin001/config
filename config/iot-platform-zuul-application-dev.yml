@@ -4,7 +4,7 @@ spring:
   application:
     name: iot-platform-zuul
   profiles:
-    active: db
+    active: iot-platform-zuul-application-db-dev
 eureka:
   client:
     service-url:
